@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    line-height:1em;
+    color:maroon;
+    background-color:lightgrey;
+   /* background-image: url("/home/karungi/Desktop/week 3 outbox/contact.jpeg") */
+}
+
+#div{
+    background-color:red;
+    padding:3%;
+}
