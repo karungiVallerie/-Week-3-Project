@@ -57,7 +57,7 @@ var searchContacts = (e) => {
 		console.log(first_name, " found!") 
 		// return the contact info to the page
 		var ptag = document.createElement("p");
-		var node = document.createTextNode(first_name + ": "+ phone_number);
+		var node = document.createTextNode( first_name + ": "+ second_name + ":"+ phone_number + ":"+ email + ":"+ address);
 		ptag.appendChild(node);
 		var element = document.getElementById("result");
 		element.appendChild(ptag);
