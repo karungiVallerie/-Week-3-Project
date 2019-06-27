@@ -24,17 +24,17 @@ var saveContact = (e) => {
     
 	// create a contact object using the constructor
     var new_contact = new Contact(first_name,second_name, phone_number,email,address);
-    console.log(`Contact ${contacts} to be saved!`);
+    alert(`Contact to be saved!`);
 	// save the contact
 	contacts.push(new_contact);
 	// print the array of contacts
-	console.log(`Contact ${new_contact} saved!`);
+	alert("contact saved !" );
 };
 
 
 var searchContacts = (e) => {
     e.preventDefault()
-    console.log("this was c")
+    alert("found")
     
 	// clear the element
 	document.getElementById("result").innerHTML = "";
